@@ -1,8 +1,10 @@
-🧠 Embedded Lore Mechanics:
-Mirror Contracts: reflect logic post-signature (reflector.sol)
+# 🧠 Chapter 11: Embedded Lore Mechanics – Proxy Warfare
 
-Auto-Stake Loop: delegateTo(msg.sender) traps even abstentions
+### 🪞 Mirror Contracts
+`reflector.sol` reflects proposals post-signature. Logic inversion flips YES ↔ NO using the signer’s own key.
 
-Ghost Signatures: old votes appear tagged to proxy wallets
+---
 
-Thread Continuity: one thread connects back to Chapter 10’s unverifiable sig, labeled BACKDOOR_INIT
+### 🔁 Auto-Stake Loop
+```solidity
+delegateTo(msg.sender)
