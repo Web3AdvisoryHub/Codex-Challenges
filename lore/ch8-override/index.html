@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vote Override Error</title>
+  <style>
+    body {
+      background-color: #0b0b0b;
+      color: #00ffc8;
+      font-family: monospace;
+      text-align: center;
+      padding-top: 10%;
+    }
+    .error {
+      font-size: 1.3em;
+      margin-bottom: 30px;
+      animation: flicker 1.5s infinite alternate;
+    }
+    @keyframes flicker {
+      0% { opacity: 0.6; }
+      100% { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <h1 class="error">Error: LoyaltyScoreOverflow("You cannot outvote your past self");</h1>
+
+  <audio autoplay loop>
+    <source src="https://web3advisoryhub.github.io/Codex-Challenges/lore/ch8-override/ch8-audio.mp3" type="audio/mpeg">
+    Your browser does not support the audio tag.
+  </audio>
+
+  <p>Try again?</p>
+</body>
+</html>
