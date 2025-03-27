@@ -1,0 +1,8 @@
+🧠 Embedded Lore Mechanics:
+Mirror Contracts: reflect logic post-signature (reflector.sol)
+
+Auto-Stake Loop: delegateTo(msg.sender) traps even abstentions
+
+Ghost Signatures: old votes appear tagged to proxy wallets
+
+Thread Continuity: one thread connects back to Chapter 10’s unverifiable sig, labeled BACKDOOR_INIT
